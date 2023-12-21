@@ -1,0 +1,58 @@
+#populars{
+    display: flex;
+    justify-content: center;
+    .container{
+        text-align: center;
+        margin: 2rem 0;
+        .popular{
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+      
+    }
+    #product{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+        .box{
+            width: 300px;
+            img{
+                width: 100%;
+            }
+            p{
+                margin: 0.5rem 0;
+                font-weight: 500;
+            }
+            button{
+                margin: 1rem 0;
+                padding: 10px;
+                color: #fff;
+                background-color: red;
+                transition: 1s;
+                border: 1px solid red;
+                border-radius: 20px;
+                &:hover{
+                    color: red;
+                    background-color: #fff;
+                }
+            }
+        }
+    
+
+    }
+    .d-flex{
+        button{
+            color: #fff;
+            background-color: black;
+            padding: 10px;
+            transition: 1s;
+            border-radius: 20px;
+            border: 1px solid black;
+            &:hover{
+                color: black;
+                background-color: #fff;
+            }
+        }
+    }
+}

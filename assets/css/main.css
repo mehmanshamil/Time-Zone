@@ -1,0 +1,217 @@
+#populars {
+  display: flex;
+  justify-content: center;
+}
+#populars .container {
+  text-align: center;
+  margin: 2rem 0;
+}
+#populars .container .popular {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+#populars #product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+#populars #product .box {
+  width: 300px;
+}
+#populars #product .box img {
+  width: 100%;
+}
+#populars #product .box p {
+  margin: 0.5rem 0;
+  font-weight: 500;
+}
+#populars #product .box button {
+  margin: 1rem 0;
+  padding: 10px;
+  color: #fff;
+  background-color: red;
+  transition: 1s;
+  border: 1px solid red;
+  border-radius: 20px;
+}
+#populars #product .box button:hover {
+  color: red;
+  background-color: #fff;
+}
+#populars .d-flex button {
+  color: #fff;
+  background-color: black;
+  padding: 10px;
+  transition: 1s;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+#populars .d-flex button:hover {
+  color: black;
+  background-color: #fff;
+}
+
+header {
+  width: 100%;
+  z-index: 999;
+}
+header .container ul li a {
+  color: black;
+  font-weight: 500;
+  transition: 0.5s;
+}
+header .container ul li a:hover {
+  color: rgb(255, 0, 60);
+}
+header .container ul .dropdown:hover .dropdown-menu {
+  display: block;
+}
+header .container .logo i {
+  transition: 1s;
+  font-size: 1.2rem;
+  color: black;
+}
+header .container .logo i:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#select .container .red {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+}
+#select .container .red i {
+  color: #fff;
+  transition: 1s;
+  padding: 15px;
+  background-color: rgb(255, 0, 60);
+  border-radius: 50%;
+  border: 1px solid rgb(255, 0, 60);
+}
+#select .container .red i:hover {
+  color: rgb(255, 0, 60);
+  background-color: #fff;
+}
+#select .container .row .col-xl-6 img {
+  width: 100%;
+}
+#select .container .row .col-xl-6 .text .select {
+  color: #0b1c39;
+  line-height: 1.2;
+  font-size: 4rem;
+  font-weight: bold;
+}
+#select .container .row .col-xl-6 .text .ut {
+  color: black;
+}
+#select .container .row .col-xl-6 .text button {
+  border: none;
+  padding: 10px 20px;
+  background-color: #4a4a4b;
+  color: #fff;
+  transition: 1s;
+}
+#select .container .row .col-xl-6 .text button:hover {
+  background-color: rgb(255, 0, 60);
+}
+
+#new .container .arriv {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+#new .container .row {
+  margin: 2rem 0;
+}
+#new .container .row .col-xl-4 {
+  text-align: center;
+}
+#new .container .row .col-xl-4 img {
+  width: 100%;
+  transition: 1s;
+  scale: 0.98;
+}
+#new .container .row .col-xl-4 img:hover {
+  scale: 1;
+}
+#new .container .row .col-xl-4 p {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+#new .container .row .col-xl-4 span {
+  color: red;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+#popular {
+  display: flex;
+  justify-content: center;
+}
+#popular .container {
+  text-align: center;
+  margin: 2rem 0;
+}
+#popular .container .popular {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+#popular #product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+#popular #product .box {
+  width: 300px;
+}
+#popular #product .box img {
+  width: 100%;
+}
+#popular #product .box p {
+  margin: 0.5rem 0;
+  font-weight: 500;
+}
+#popular #product .box button {
+  margin: 1rem 0;
+  padding: 10px;
+  color: #fff;
+  background-color: green;
+  transition: 1s;
+  border: 1px solid green;
+  border-radius: 20px;
+}
+#popular #product .box button:hover {
+  color: green;
+  background-color: #fff;
+}
+#popular .d-flex button {
+  color: #fff;
+  background-color: black;
+  padding: 10px;
+  transition: 1s;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+#popular .d-flex button:hover {
+  color: black;
+  background-color: #fff;
+}
+
+footer .d-flex i {
+  cursor: pointer;
+  transition: 1s;
+}
+footer .d-flex i:hover {
+  color: rgb(255, 0, 60);
+}
+
+@media (max-width: 500px) {
+  #select .container .row .col-xl-6 .text .select {
+    font-size: 2rem;
+  }
+  header .container {
+    width: 100%;
+  }
+}

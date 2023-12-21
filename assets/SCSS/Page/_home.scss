@@ -1,0 +1,233 @@
+header {
+    // position: fixed;
+    width: 100%;
+    z-index: 999;
+
+    .container {
+        ul {
+            li {
+                a {
+                    color: black;
+                    font-weight: 500;
+                    transition: 0.5s;
+
+                    &:hover {
+                        color: rgb(255, 0, 60);
+                    }
+
+                }
+            }
+
+            .dropdown {
+                &:hover {
+                    .dropdown-menu {
+                        display: block;
+                    }
+                }
+            }
+        }
+
+        .logo {
+            i {
+                transition: 1s;
+                font-size: 1.2rem;
+                color: black;
+
+                &:hover {
+                    color: red;
+                    cursor: pointer;
+
+                }
+            }
+        }
+    }
+}
+
+#select {
+
+    .container {
+        .red {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+
+            i {
+                color: #fff;
+                transition: 1s;
+                padding: 15px;
+                background-color: rgb(255, 0, 60);
+                border-radius: 50%;
+                border: 1px solid rgb(255, 0, 60);
+                &:hover {
+                    color: rgb(255, 0, 60);
+                    background-color: #fff
+                    ;
+                }
+            }
+        }
+
+        .row {
+            .col-xl-6 {
+                img {
+                    width: 100%;
+                }
+
+                .text {
+                    .select {
+                        color: #0b1c39;
+                        line-height: 1.2;
+                        font-size: 4rem;
+                        font-weight: bold;
+                    }
+
+                    .ut {
+                        color: black;
+                    }
+
+                    button {
+                        border: none;
+                        padding: 10px 20px;
+                        background-color: #4a4a4b;
+                        color: #fff;
+                        transition: 1s;
+
+                        &:hover {
+                            background-color: rgb(255, 0, 60);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#new {
+    .container {
+        .arriv {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+
+        .row {
+            margin: 2rem 0;
+
+            .col-xl-4 {
+                text-align: center;
+
+                img {
+                    width: 100%;
+                    transition: 1s;
+                    scale: 0.98;
+
+                    &:hover {
+                        scale: 1;
+                    }
+                }
+
+                p {
+                    font-weight: 500;
+                    font-size: 1.3rem;
+                }
+
+                span {
+                    color: red;
+                    font-size: 1.2rem;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+}
+
+#popular {
+    display: flex;
+    justify-content: center;
+
+    .container {
+        text-align: center;
+        margin: 2rem 0;
+
+        .popular {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+    }
+
+    #product {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+
+        .box {
+            width: 300px;
+
+            img {
+                width: 100%;
+            }
+
+            p {
+                margin: 0.5rem 0;
+                font-weight: 500;
+            }
+
+            button {
+                margin: 1rem 0;
+                padding: 10px;
+                color: #fff;
+                background-color: green;
+                transition: 1s;
+                border: 1px solid green;
+                border-radius: 20px;
+
+                &:hover {
+                    color: green;
+                    background-color: #fff;
+                }
+            }
+        }
+
+
+    }
+
+    .d-flex {
+        button {
+            color: #fff;
+            background-color: black;
+            padding: 10px;
+            transition: 1s;
+            border-radius: 20px;
+            border: 1px solid black;
+
+            &:hover {
+                color: black;
+                background-color: #fff;
+            }
+        }
+    }
+}
+
+footer {
+    .d-flex {
+        i {
+            cursor: pointer;
+            transition: 1s;
+
+            &:hover {
+                color: rgb(255, 0, 60);
+            }
+        }
+    }
+}
+
+@media(max-width:500px) {
+    #select .container .row .col-xl-6 .text .select {
+        font-size: 2rem;
+    }
+
+    header .container {
+        width: 100%;
+    }
+}
